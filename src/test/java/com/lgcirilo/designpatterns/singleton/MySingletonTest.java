@@ -1,5 +1,6 @@
-package singleton;
+package com.lgcirilo.designpatterns.singleton;
 
+import com.lgcirilo.designpatterns.singleton.MySingleton;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

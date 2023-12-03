@@ -1,4 +1,4 @@
-package singleton;
+package com.lgcirilo.designpatterns.singleton;
 
 public class MySingleton {
 
