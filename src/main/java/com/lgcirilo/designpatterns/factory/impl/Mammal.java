@@ -1,15 +1,16 @@
 package com.lgcirilo.designpatterns.factory.impl;
 
+import com.lgcirilo.designpatterns.factory.AbstractAnimal;
 import com.lgcirilo.designpatterns.factory.TaxonomyClass;
 
-public class Wolf extends AnimalImpl{
+public class Mammal extends AbstractAnimal {
 
-    public Wolf() {
+    public Mammal() {
         this.taxonomyClass = TaxonomyClass.MAMMALIA;
     }
 
     @Override
-    public TaxonomyClass getTaxonomhyCLass() {
-        return null;
+    public TaxonomyClass getTaxonomhyClass() {
+        return this.taxonomyClass;
     }
 }

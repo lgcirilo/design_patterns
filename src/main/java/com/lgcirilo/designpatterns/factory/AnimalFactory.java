@@ -1,11 +1,15 @@
-package com.lgcirilo.designpatterns.factory.impl;
+package com.lgcirilo.designpatterns.factory;
 
 import com.lgcirilo.designpatterns.factory.Animal;
+import com.lgcirilo.designpatterns.factory.impl.Amphibian;
+import com.lgcirilo.designpatterns.factory.impl.Ave;
+import com.lgcirilo.designpatterns.factory.impl.Mammal;
+import com.lgcirilo.designpatterns.factory.impl.Reptile;
 
 public class AnimalFactory {
 
     public static Animal getAnimal(String taxonomyClass) {
-        if (taxonomyClass.equals("AVE")) {
+        if (taxonomyClass.equals("AVES")) {
             return new Ave();
         }
 
@@ -13,11 +17,11 @@ public class AnimalFactory {
             return new Amphibian();
         }
 
-        if (taxonomyClass.equals("REPTILE")) {
+        if (taxonomyClass.equals("REPTILIA")) {
             return new Reptile();
         }
 
-        if (taxonomyClass.equals("MAMMAL")) {
+        if (taxonomyClass.equals("MAMMALIA")) {
             return new Mammal();
         }
         return null;

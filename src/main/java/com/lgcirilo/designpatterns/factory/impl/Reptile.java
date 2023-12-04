@@ -1,15 +1,16 @@
 package com.lgcirilo.designpatterns.factory.impl;
 
+import com.lgcirilo.designpatterns.factory.AbstractAnimal;
 import com.lgcirilo.designpatterns.factory.TaxonomyClass;
 
-public class Turtle extends AnimalImpl {
+public class Reptile extends AbstractAnimal {
 
-    public Turtle() {
+    public Reptile() {
         this.taxonomyClass = TaxonomyClass.REPTILIA;
     }
 
     @Override
-    public TaxonomyClass getTaxonomhyCLass() {
-        return null;
+    public TaxonomyClass getTaxonomhyClass() {
+        return this.taxonomyClass;
     }
 }
