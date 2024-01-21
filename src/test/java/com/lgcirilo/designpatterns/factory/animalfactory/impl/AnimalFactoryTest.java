@@ -1,7 +1,7 @@
-package com.lgcirilo.designpatterns.factory.impl;
+package com.lgcirilo.designpatterns.factory.animalfactory.impl;
 
-import com.lgcirilo.designpatterns.factory.Animal;
-import com.lgcirilo.designpatterns.factory.AnimalFactory;
+import com.lgcirilo.designpatterns.factory.animalfactory.Animal;
+import com.lgcirilo.designpatterns.factory.animalfactory.AnimalFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

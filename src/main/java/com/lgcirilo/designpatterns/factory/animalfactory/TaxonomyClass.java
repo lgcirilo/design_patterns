@@ -1,4 +1,4 @@
-package com.lgcirilo.designpatterns.factory;
+package com.lgcirilo.designpatterns.factory.animalfactory;
 
 public enum TaxonomyClass {
     MAMMALIA,

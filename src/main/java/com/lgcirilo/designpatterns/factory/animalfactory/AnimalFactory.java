@@ -1,10 +1,9 @@
-package com.lgcirilo.designpatterns.factory;
+package com.lgcirilo.designpatterns.factory.animalfactory;
 
-import com.lgcirilo.designpatterns.factory.Animal;
-import com.lgcirilo.designpatterns.factory.impl.Amphibian;
-import com.lgcirilo.designpatterns.factory.impl.Ave;
-import com.lgcirilo.designpatterns.factory.impl.Mammal;
-import com.lgcirilo.designpatterns.factory.impl.Reptile;
+import com.lgcirilo.designpatterns.factory.animalfactory.impl.Amphibian;
+import com.lgcirilo.designpatterns.factory.animalfactory.impl.Ave;
+import com.lgcirilo.designpatterns.factory.animalfactory.impl.Mammal;
+import com.lgcirilo.designpatterns.factory.animalfactory.impl.Reptile;
 
 public class AnimalFactory {
 
@@ -24,6 +23,7 @@ public class AnimalFactory {
         if (taxonomyClass.equals("MAMMALIA")) {
             return new Mammal();
         }
+
         return null;
     }
 }

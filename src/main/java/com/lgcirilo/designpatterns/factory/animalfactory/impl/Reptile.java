@@ -1,7 +1,7 @@
-package com.lgcirilo.designpatterns.factory.impl;
+package com.lgcirilo.designpatterns.factory.animalfactory.impl;
 
-import com.lgcirilo.designpatterns.factory.AbstractAnimal;
-import com.lgcirilo.designpatterns.factory.TaxonomyClass;
+import com.lgcirilo.designpatterns.factory.animalfactory.AbstractAnimal;
+import com.lgcirilo.designpatterns.factory.animalfactory.TaxonomyClass;
 
 public class Reptile extends AbstractAnimal {
 
